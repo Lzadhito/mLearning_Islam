@@ -4,7 +4,7 @@ class TransparentFlatCard extends StatelessWidget {
   const TransparentFlatCard({
     Key key,
     @required this.child,
-    this.color = const Color(0X21FF8563),
+    this.color = const Color(0X77263238),
   }) : super(key: key);
 
   final Widget child;

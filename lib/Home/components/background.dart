@@ -14,8 +14,7 @@ class Background extends StatelessWidget {
             decoration: BoxDecoration(
               image: DecorationImage(
                 fit: BoxFit.fill,
-                image:
-                    AssetImage('assets/images/animated_desert_w_gradient.png'),
+                image: AssetImage('assets/images/sunset_bottom_gradient2.png'),
               ),
             ),
           ),
@@ -27,7 +26,7 @@ class Background extends StatelessWidget {
               image: DecorationImage(
                 alignment: Alignment(-1.0, -1.0),
                 fit: BoxFit.fitWidth,
-                image: AssetImage('assets/images/animated_desert_night.png'),
+                image: AssetImage('assets/images/mountain.png'),
               ),
             ),
           ),

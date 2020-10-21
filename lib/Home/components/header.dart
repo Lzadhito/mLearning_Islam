@@ -22,10 +22,13 @@ class Header extends StatelessWidget {
                   style: Theme.of(context).textTheme.headline6,
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 10),
+                  margin: EdgeInsets.only(top: 10, left: 5, right: 5),
                   child: Text(
                     nasihatUlama,
-                    style: Theme.of(context).textTheme.bodyText2,
+                    style: TextStyle(
+                        fontSize: 12,
+                        // fontStyle: FontStyle.italic,
+                        color: const Color(0XDDDDDDDD)),
                     textAlign: TextAlign.justify,
                   ),
                 ),
@@ -49,9 +52,9 @@ class UserCard extends StatelessWidget {
     const userFullName = "Laksamana Adhito";
     const userTitle = "Taking The First Step for 'Ilm";
     final Widget feather = SvgPicture.asset(
-      'assets/icons/feather-pen.svg',
-      width: 31,
-      height: 31,
+      'assets/icons/star.svg',
+      width: 21,
+      height: 21,
       semanticsLabel: "feather",
     );
     final String featherCount = "35";
